@@ -3,11 +3,11 @@
    --black: #000;
    --font-color-base: #666;
    --font-color-dark: #212529;
-   --font-color-light: #b0aebe;
+   --font-color-light: rgb(176, 174, 190);
    --font-color-link: #57a6ff;
    --footer: #34314b;
    --footer-base: #2e2b45;
-   --contrast: var(--font-color-light);
+   --contrast: rgba(246, 248, 249, 0.8);
    --success: #64ECf5;  
    --danter: #ff8b8d;
    --grad-1: #a1ecff;
@@ -103,6 +103,24 @@ img {
    padding: 0.475rem 1.75rem;
 }
 
+.serviceCard {
+   padding: var(--size-30);
+   box-shadow: 0 0 10px rgba(48, 63, 100 0.15);
+   background: white;
+   border-radius: 8px;
+
+
+}
+
+.serviceCard span {
+   width: 50px;
+   height: 50px;
+   background: green;
+   display: block;
+   float: left;
+   margin-right: 15px;
+   border-radius: 50%;
+}
 @media (min-width: 1200px){
    .container { max-width: 1140px;}
 }
