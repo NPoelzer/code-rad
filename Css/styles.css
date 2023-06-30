@@ -120,6 +120,7 @@
    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
    gap: var(--size-20);
 }
+
 .serviceCard {
    padding: var(--size-30);
    box-shadow: 0 0 10px rgba(48, 63, 100 0.15);
@@ -140,11 +141,11 @@
 }
 
 span.bg-color-1 { background-image: linear-gradient(90deg, #9ccdf3 0%, #94aafd 100%)}
-span.bg-color-1 { background-image: linear-gradient(90deg, #55edc0 0%, #4bdbdb 100%)}
-span.bg-color-1 { background-image: linear-gradient(90deg, #fda498 0%, #f58b9e 100%)}
-span.bg-color-1 { background-image: linear-gradient(90deg, #f2a7ca 0%, #c289f4 100%)}
-span.bg-color-1 { background-image: linear-gradient(90deg, #ffc187 0%, #fe93a7 100%)}
-span.bg-color-1 { background-image: linear-gradient(90deg, #a1ecff 0%, #7dbcff 100%)}
+span.bg-color-2 { background-image: linear-gradient(90deg, #55edc0 0%, #4bdbdb 100%)}
+span.bg-color-3 { background-image: linear-gradient(90deg, #fda498 0%, #f58b9e 100%)}
+span.bg-color-4 { background-image: linear-gradient(90deg, #f2a7ca 0%, #c289f4 100%)}
+span.bg-color-5 { background-image: linear-gradient(90deg, #ffc187 0%, #fe93a7 100%)}
+span.bg-color-6 { background-image: linear-gradient(90deg, #a1ecff 0%, #7dbcff 100%)}
 
 .video-demo{text-align: center;}
 .video-demo .block-text{
@@ -175,6 +176,7 @@ span.bg-color-1 { background-image: linear-gradient(90deg, #a1ecff 0%, #7dbcff 1
 
 .video-box{
    position: relative;
-   margin-bottom: -150px;
+   margin-bottom: -9.375rem;
    z-index: 100;
 }
+
